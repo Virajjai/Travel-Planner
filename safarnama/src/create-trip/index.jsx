@@ -5,7 +5,7 @@ import { Input } from '@/components/ui/input';
 import { AI_PROMPT, SelectBudgetOptions, SelectTravelesList } from '@/constants/options';
 import { Button } from '@/components/ui/button';
 import { toast } from 'sonner';
-import { chatSession } from '@/services/AImodel';
+import { chatSession } from '@/services/AIModel';
 import {
     Dialog,
     DialogContent,
